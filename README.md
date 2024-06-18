@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Курсовая работа по дисциплине "Скриптовые языки разметки"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Основные возможности
+- **Компонентный подход**: Проект построен на основе компонентной архитектуры React, что делает его масштабируемым и удобным для сопровождения.
+- **Управление состоянием**: Для управления состоянием использованы хуки (useState, useEffect) и контекст (Context API).
+- **Роутинг**: Реализована навигация между страницами с помощью библиотеки React Router.
+- **API взаимодействие**: Приложение взаимодействует с внешним API для получения и отображения данных.
+- **Адаптивный дизайн**: Приложение корректно отображается на различных устройствах благодаря использованию адаптивного дизайна.
+- **Redux** но это капец
 
-In the project directory, you can run:
+## Структура проекта
+Проект включает в себя следующие основные файлы и директории:
+- **public/**: Эта папка содержит статические файлы, такие как index.html (основной HTML-шаблон приложения) и logo.svg (иконка для вкладки браузера).
+- **src/**: Все исходные файлы проекта находятся в этой папке:
+	- **components/**: Директория со всеми компонентами приложения.
+	- **images/**: Директория с изображениями, используемыми на веб-странице.
 
-### `npm start`
+## Используемые технологии
+- **React**: Библиотека для построения пользовательских интерфейсов.
+- **React Router**: Библиотека для управления маршрутизацией в React-приложениях.
+- **Redux**: Для работы с состояниями
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Установка и запуск проекта
+1. Клонируйте репозиторий на свой компьютер: git clone `https://github.com/TinVerner/KaoriMau-2`
+2. Перейдите в папку проекта: `cd KaoriMau-2`
+3. Установите зависимости проекта: `npm install`
+4. Запустите проект: `npm start`
+5. Откройте браузер и перейдите по адресу http://localhost:3000, чтобы увидеть работу проекта.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ссылки
+- Репозиторий проекта: https://github.com/TinVerner/KaoriMau-2
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## TinVerner, 2024.
