@@ -1,66 +1,65 @@
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Items from "./components/Items";
+import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Items from './components/Items'
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      items: [
-        {
-          id: 1,
-          title: 'Пицца 1',
-          img: '/images/',
-          desc: 'Описание пиццы 1',
-          category: 'pizzas',
-          price: '20 BYN'
-        },
-        {
-          id: 2,
-          title: 'Пицца 2',
-          img: '',
-          desc: 'Описание пиццы 2',
-          category: 'pizzas',
-          price: '25 BYN'
-        },
-        {
-          id: 3,
-          title: 'Пицца 3',
-          img: '',
-          desc: 'Описание пиццы 3',
-          category: 'pizzas',
-          price: '22 BYN'
-        },
-        {
-          id: 4,
-          title: 'Сок 1',
-          img: '',
-          desc: 'Описание сока 1',
-          category: 'drinks',
-          price: '3 BYN'
-        },
-        {
-          id: 5,
-          title: 'Вода',
-          img: '',
-          desc: 'Описание воды',
-          category: 'drinks',
-          price: '2 BYN'
-        }
-
-      ]
-    }
-  }
-  render() {
-    return (
-      <div className='wrapper'>
-        <Header />
-        <Items items={this.state.items} />
-        <Footer />
-      </div>
-    );
-  }
+	constructor(props) {
+		super(props)
+		this.state = {
+			items: [
+				{
+					id: 1,
+					title: 'Капри',
+					img: 'kapri.png',
+					desc: 'Моцарелла, ветчина, шампиньоны, томатный соус, чеснок, маслины',
+					category: 'pizzas',
+					price: '23',
+				},
+				{
+					id: 2,
+					title: 'Римская',
+					img: 'rimskaya.png',
+					desc: 'Моцарелла, бекон, базилик, орегано, томатный соус, маслины',
+					category: 'pizzas',
+					price: '25',
+				},
+				{
+					id: 3,
+					title: 'Гавайская',
+					img: 'hawaii.png',
+					desc: 'Моцарелла, курица, ананас, орегано томатный соус, майонез',
+					category: 'pizzas',
+					price: '24',
+				},
+				{
+					id: 4,
+					title: 'Сок апельсиновый',
+					img: 'orange-juice.png',
+					desc: 'Апельсиновый сок :)',
+					category: 'drinks',
+					price: '3',
+				},
+				{
+					id: 5,
+					title: 'Вода',
+					img: 'water.png',
+					desc: 'Просто вода',
+					category: 'drinks',
+					price: '2',
+				},
+			],
+		}
+	}
+	render() {
+		return (
+			<div className='wrapper'>
+				<Header />
+				<Items items={this.state.items} />
+				<Footer />
+			</div>
+		)
+	}
 }
 
-export default App;
+export default App
