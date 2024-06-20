@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import logo from '../images/KaoriMau-logo.svg'
 import { FiShoppingCart } from 'react-icons/fi'
 import Order from './Order'
 
@@ -32,10 +31,7 @@ export default function Header(props) {
 	return (
 		<header>
 			<div>
-				<span className='logo'>
-					{/* <img src={logo} alt="magazin emae" className="logo-img" /> */}
-					Kaori Mau
-				</span>
+				<span className='logo'>Kaori Mau</span>
 				<ul className='nav'>
 					<li>Про нас</li>
 					<li>Контакты</li>
